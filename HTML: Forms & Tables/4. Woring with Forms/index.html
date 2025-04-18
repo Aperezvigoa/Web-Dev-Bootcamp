@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
     <h1>Forms Demo</h1>
     <form action="/tacos">
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Super secret password">
-        <input type="date">
-        <input type="color">
-        <input type="number" placeholder="Age">
-        <input type="search">
+        <p>
+            <label for="Username">Username</label>
+            <input id="Username" type="text" placeholder="Username">
+        </p>
+        <p>
+            <label for="Password">Password</label>
+            <input id="Password" placeholder="Super secret password">
+        </p>
+        <p>
+            <label for="color">Select a color</label>
+            <input id="color" type="color">
+        </p>
+        <p>
+            <label for="age">Confirm your age</label>
+            <input id="age" type="number" placeholder="Age">
+        </p>
+        <br>
+        <div class="Preferences">
+            <label for="terms">Do you accept terms and conditions?</label>
+            <input type="checkbox" id="terms">
+        </div>
+        <div class="Preferences">
+            <label for="mails">Do you want to recieve mails?</label>
+            <input type="checkbox" id="mails">
+        </div>
     </form>
 </body>
+
 </html>
