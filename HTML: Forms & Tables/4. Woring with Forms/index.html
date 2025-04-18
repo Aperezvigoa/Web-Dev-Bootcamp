@@ -12,11 +12,11 @@
     <form action="/tacos">
         <p>
             <label for="username">Username</label>
-            <input id="username" type="text" placeholder="username" name="username">
+            <input id="username" type="text" placeholder="username" name="username" minlength="8" maxlength="16" required>
         </p>
         <p>
             <label for="password">Password</label>
-            <input id="password" placeholder="Super secret password" name="password">
+            <input id="password" placeholder="Super secret password" name="password" minlength="12" required>
         </p>
         <p>
             <label for="color">Select a color</label>
