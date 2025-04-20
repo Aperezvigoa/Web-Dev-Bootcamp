@@ -1,0 +1,16 @@
+h1 {
+    color:chocolate
+}
+h2 {
+    color:tomato;
+    background-color: aqua;
+}
+button {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    color: white;
+    background: orangered;
+}
