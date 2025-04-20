@@ -3,6 +3,11 @@ h1 {
     font-weight: 900;
     text-decoration: underline wavy orangered;
     letter-spacing: 8px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 p {
