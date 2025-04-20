@@ -1,0 +1,20 @@
+h1 {
+    color:rgb(250, 20, 80)
+}
+h2 {
+    color: #ff4d70;
+    background-color: rgb(66, 0, 39);
+}
+button {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    color: white;
+    background: orangered;
+}
+
+body {
+    background-color: #000; 
+}
