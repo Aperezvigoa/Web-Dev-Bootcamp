@@ -43,3 +43,7 @@ h2 + button {
 footer > a {
     color: mediumslateblue;
 }
+
+input[type="email"]{
+    color:teal;
+}
