@@ -15,3 +15,13 @@ h1, h2 {
     background-color: #003049;
     color: rgb(197, 242, 250);
 }
+
+span {
+    color: #2c81b5;
+}
+
+.category {
+    color:snow;
+    background-color: #C1121F;
+    font-size: 16px;
+}
