@@ -70,3 +70,16 @@ a:hover {
 input[type="checkbox"]:checked{
     color:#38ba91;
 }
+
+h2::first-letter {
+    font-size: 35px;
+    color:royalblue;
+}
+
+p::first-line {
+    color: rgb(61, 110, 201);
+}
+
+*::selection {
+    background-color: royalblue;
+}
