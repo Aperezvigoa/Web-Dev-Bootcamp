@@ -47,3 +47,26 @@ footer > a {
 input[type="email"]{
     color:teal;
 }
+
+a:hover {
+    color: #003049;
+    font-weight: 900;
+}
+
+.post button:hover {
+    color: white;
+    background-color: #1a4766;
+}
+
+.post button:active {
+    color: rgb(255, 255, 255);
+    background-color: #38ba91;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #e7e4dd;
+}
+
+input[type="checkbox"]:checked{
+    color:#38ba91;
+}
