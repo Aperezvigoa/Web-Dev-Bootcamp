@@ -31,6 +31,15 @@ span {
     font-weight: 700;
 }
 
-footer li a {
+footer a {
     color: #003049;
+}
+
+h2 + button {
+    background-color: rgb(80, 197, 212);
+    font-size: 25px;
+}
+
+footer > a {
+    color: mediumslateblue;
 }
