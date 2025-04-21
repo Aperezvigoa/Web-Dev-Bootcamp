@@ -1,11 +1,17 @@
-* {
-    color: #252525;
+body {
+    background-color: #fffcf5;
 }
 
 button {
     font-size: 20px;
+    background-color: #669BBC;
 }
 
 h1, h2 {
-    color: orangered;
+    color: #003049;
+}
+
+#register {
+    background-color: #003049;
+    color: rgb(197, 242, 250);
 }
