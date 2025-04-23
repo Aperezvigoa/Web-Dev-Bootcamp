@@ -1,0 +1,12 @@
+h1 {
+    background-color: royalblue;
+    border: 2px solid black;
+    display: inline;
+}
+
+span {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    display: block;
+    padding: 20px;
+}
