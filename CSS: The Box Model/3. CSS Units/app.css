@@ -16,25 +16,41 @@ h1 {
     line-height: 200%;
 }
 
-h2 {
+#emsh2 {
     font-size: 1.5em;
     margin: 1em;
 }
 
-h3 {
+#emsh3 {
     font-size: 1.25em;
 }
 
-article p {
+#ems p {
     font-size: 0.8em;
 }
 
-article {
+#ems {
     font-size: 20px;
 }
 
-article button {
+button {
     font-size: 1em;
     padding: 0 1em;
     border-radius: 0.5em;
+}
+
+#ems ul {
+    font-size: 1.5em;
+}
+
+#rems h2{
+    font-size: 3rem;
+}
+
+#rems h3{
+    font-size: 3rem;
+}
+
+#rems ul {
+    font-size: 1.5rem;
 }
