@@ -1,0 +1,51 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border: 2px solid coral;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#middle {
+    background-color: violet;
+    border-color: royalblue;
+}
+
+#rmiddle {
+    background-color: #ee9d82;
+    border-color: #62a71e;
+}
+
+#amiddle {
+    background-color: #ff0000;
+    border-color: royalblue;
+}
+
+#fmiddle {
+    background-color: #ffbb00;
+    border-color: #ff00de;
+}
+
+#static #middle{
+    position: static;
+    top: 100px;
+}
+
+#relative #rmiddle {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#absolute #amiddle {
+    position: absolute;
+    right: 200px;
+}
+
+#fixed #fmiddle {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
