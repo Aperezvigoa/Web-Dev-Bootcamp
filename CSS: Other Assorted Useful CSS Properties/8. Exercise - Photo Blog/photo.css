@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    border-bottom: 2px solid gray;
+    width: 30%;
+    margin: calc(10%/6);
+    padding: 1em 0;
+}
