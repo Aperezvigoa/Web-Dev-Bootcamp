@@ -1,0 +1,13 @@
+section {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.hdqwalls.com%2Fdownload%2Flinux-tux-minimal-4k-ra-3840x2160.jpg&f=1&nofb=1&ipt=e4c7d5084f45d86304374caf982ab42051db0041db3d530c983e457eed14b385");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
