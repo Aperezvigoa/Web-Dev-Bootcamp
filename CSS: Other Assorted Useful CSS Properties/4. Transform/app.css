@@ -1,0 +1,30 @@
+h1 {
+    width: 200px;
+    padding: 0.7em;
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #d5f5ac;
+    font-family: Courier New;
+    font-weight: lighter;
+    border: 5px solid royalblue;
+    transition: 1s;
+}
+
+h1:nth-of-type(2n) {
+    background-color: cornflowerblue;
+}
+h1:nth-of-type(3n) {
+    background-color: coral;
+}
+h1:nth-of-type(4n) {
+    background-color: orange;
+}
+
+h1:hover {
+    transform-origin: top left;
+    transform: rotate(21deg);
+    transform: scale(0.5);
+    transform: translate(-100px, 100px);
+    transform: skew(30deg);
+}
