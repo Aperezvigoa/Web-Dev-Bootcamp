@@ -12,6 +12,7 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
     background-color: #003049;
     width: 90%;
     height: 500px;
