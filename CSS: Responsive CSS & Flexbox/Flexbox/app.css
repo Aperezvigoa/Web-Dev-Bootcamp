@@ -28,7 +28,7 @@ h1 {
     flex-basis: 200px;
     flex-grow: 1;
     max-width: 500px;
-    flex-shrink: 5;
+    flex-shrink: 1;
     min-width: 100px;
 }
 
